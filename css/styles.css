@@ -1,0 +1,31 @@
+/* General Styles */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+  min-height: 100vh;
+}
+
+#carouselDemo img {
+  width: 100%;
+  height: calc(100vh - 56px);
+  object-fit: cover;
+}
+
+#second-navbar {
+  background-color: bisque;
+  display: flex;
+}
+
+#second-navbar a {
+  height: 50px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-navbar a:hover {
+  background-color: grey;
+}
